@@ -63,9 +63,28 @@
     h2.russian{
       font-size:2.5vh;
     }
+    nav{
+      width:100vw;
+      height:10vh;
+      position:fixed;
+      top:0;
+      left:0;
+      background-color:#22222299;
+      display:grid;
+      
+       grid-template-columns:70vw 15vw 15vw;
+      grid-template-rows:100%;
+    }
+    #nav-index{
+      grid-row:2;
+    }
+    #nav-story{
+      grid-row:3;
+    }
   </style>
 </head>
 <body>
+  
 <img src="banner.png" id ="banner">
   <div id="greycover"></div>
   <div id="bannercontent"><h1>Welcome to True King Jumpers</h1><p>We SMASH barbs. We KILL others in war. We WAR efficiently and effectively. We are TRUE KINGS!<br><br><br>Мы разбиваем колючки. Мы убиваем других на войне. Мы ВОЙНЫ эффективно и результативно. Мы настоящие короли!</p></div>
@@ -86,6 +105,10 @@ KVK выигрывает кампанию Королевство<br>
 уважительное и щедрое королевство
 </p>
   </div>
+  <nav>
+    <a href="index" id="nav-index">Home</a>
+    <a href="story" id="nav-story">Story</a>
+  </nav>
   </body>
 
 </html>
