@@ -1,8 +1,30 @@
 <html>
 <head>
+ <style>
+  div{
+   background-color:#0f0f0f;
+   width:100vw;
+   height:100vh;
+   z-index:100;
+   position:fixed;
+   top:0;
+   left:0;
+  }
+ </style>
 <title> Level 1 Site </title>
 </head>
 <body>
+ 
  <h1>Welcome to the level 1 site content comming soon.</h1>
+ <div></div>
+ <script>
+  var key = "pR9JhlvEdEJmcM8kG2Ls";
+  var guess = prompt("What is the key?")
+  if(guess = key){
+   document.querySelector("div").display = none;
+  }else{
+    alert("WRONG(Reload to try again)")
+   }
+ </script>
 </body>
 </html>
